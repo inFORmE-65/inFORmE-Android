@@ -5,6 +5,7 @@ import android.os.Bundle
 import team.umc.informe.R
 import team.umc.informe.config.BaseActivity
 import team.umc.informe.databinding.ActivityMainBinding
+import team.umc.informe.src.main.List.ListFragment
 import team.umc.informe.src.main.home.HomeFragment
 import team.umc.informe.src.main.sample.SampleFragment
 
@@ -25,7 +26,7 @@ class MainActivity : BaseActivity<ActivityMainBinding>(ActivityMainBinding::infl
                 }
                 R.id.sample_tab -> {
                     supportFragmentManager.beginTransaction()
-                        .replace(R.id.main_frm, SampleFragment())
+                        .replace(R.id.main_frm, ListFragment())
                         .commitAllowingStateLoss()
                 }
             }
