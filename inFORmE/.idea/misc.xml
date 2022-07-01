@@ -8,6 +8,8 @@
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.24590911865234377" />
         <entry key="app/src/main/res/layout/fragment_list.xml" value="0.2392857142857143" />
         <entry key="app/src/main/res/layout/fragment_sample.xml" value="0.2698788678204572" />
+        <entry key="app/src/main/res/layout/item_account_recycler.xml" value="0.2753623188405797" />
+        <entry key="app/src/main/res/layout/item_policy_recycler.xml" value="0.2753623188405797" />
         <entry key="app/src/main/res/menu/menu_main_bottom_nav.xml" value="0.1" />
       </map>
     </option>
