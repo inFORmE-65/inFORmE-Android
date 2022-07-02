@@ -36,7 +36,7 @@ class PolicyListViewHolder(val context: FragmentActivity?, val binding: ItemPoli
 
         fun bind(item: PolicyListData){
             name.text = item.name
-            hits.text = item.hits.toString()
+            hits.text = "조회수 " + item.hits.toString()
             contexts.text = item.context
             subject.text = item.subject
         }
