@@ -9,7 +9,7 @@ import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
 class ApplicationClass: Application() {
-    val API_URL = ""
+    val API_URL = "https://api.odcloud.kr/api/"
 
     companion object{
         lateinit var sSharedPreferences: SharedPreferences
@@ -18,6 +18,7 @@ class ApplicationClass: Application() {
         val X_ACCESS_TOKEN = "X-ACCESS-TOKEN"
 
         lateinit var sRetrofit: Retrofit
+
     }
 
     override fun onCreate() {
