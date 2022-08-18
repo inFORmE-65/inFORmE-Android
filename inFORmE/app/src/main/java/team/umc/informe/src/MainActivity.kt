@@ -1,14 +1,14 @@
 package team.umc.informe.src
 
 import android.os.Bundle
-import androidx.navigation.NavController
-import androidx.navigation.findNavController
-import androidx.navigation.ui.setupWithNavController
 import team.umc.informe.R
 import team.umc.informe.config.BaseActivity
 import team.umc.informe.databinding.ActivityMainBinding
-import team.umc.informe.src.main.policylist.PolicyListFragment
 import team.umc.informe.src.main.home.HomeFragment
+import team.umc.informe.src.main.policylist.PolicyListFragment
+import android.widget.Spinner;
+
+
 
 class MainActivity : BaseActivity<ActivityMainBinding>(ActivityMainBinding::inflate) {
 
@@ -34,8 +34,7 @@ class MainActivity : BaseActivity<ActivityMainBinding>(ActivityMainBinding::infl
                 }
             }
         }
-
-
     }
+
 
 }

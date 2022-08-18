@@ -1,16 +1,217 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".src.main.home.HomeFragment">
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="@font/montserrat_black"
+        android:text="INFORME"
+        android:textColor="@color/blue"
+        android:textSize="17.45dp" />
+
+    <View
+        android:layout_width="380dp"
+        android:layout_height="1dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="#F1F1F1" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/gmarketsans_bold"
+        android:text="반가워요, 인포미님!"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="96dp"
+        android:fontFamily="@font/gmarketsansttfmedium"
+        android:text="신청가능한 정책들을 \n알아볼까요?"
+        android:lineSpacingExtra="5dp"
+        android:textColor="@color/black"
+        android:textSize="14dp" />
+
+    <ImageView
+        android:layout_width="251dp"
+        android:layout_height="190dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/onboard_3" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="140dp"
+        android:src="@drawable/homeimage_1" />
+
+    <View
+        android:layout_width="120dp"
+        android:layout_height="1dp"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="233.8dp"
+        android:background="@color/grey" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="260dp"
+        android:fontFamily="@font/applesdgothicneoeb"
+        android:text="인포미님이 신청할 수 있는 정책이에요! 📑"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="310dp"
+        android:background="@drawable/rectangle_1" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="340dp"
+        android:fontFamily="@font/applesdgothicneoeb"
+        android:text="국가장학금 1유형"
+        android:textColor="@color/blue"
+        android:textSize="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="365dp"
+        android:fontFamily="@font/applesdgothicneom"
+        android:text="학생 직접지원형"
+        android:textColor="@color/grey"
+        android:textSize="14.96dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="320dp"
+        android:background="@drawable/homeimage_2" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="145.2dp"
+        android:layout_marginTop="400dp"
+        android:background="@drawable/homeimage_3" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="435dp"
+        android:background="@drawable/rectangle_2"
+        android:fontFamily="@font/applesdgothicneoeb"
+        android:text="교육"
+        android:textColor="@color/orange2"
+        android:textSize="35px" />
+
 
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="home_fragment"
-        android:textSize="20sp"
-        />
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="510dp"
+        android:fontFamily="@font/applesdgothicneoeb"
+        android:text="실시간 정책 순위 🏆"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
 
-</FrameLayout>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="555dp"
+        android:background="@drawable/rectangle_3" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="555dp"
+        android:background="@drawable/rectangle_4" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="562dp"
+        android:fontFamily="@font/applesdgothicneoeb"
+        android:text="1  국가장학금 1유형"
+        android:textColor="@color/white"
+        android:textSize="14.96dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="600dp"
+        android:fontFamily="@font/applesdgothicneoeb"
+        android:text="2  코로나19 입원·격리자 생활지원비 지원"
+        android:textColor="@color/grey"
+        android:textSize="14.96dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="630dp"
+        android:fontFamily="@font/applesdgothicneoeb"
+        android:text="3  국가장학금 2유형"
+        android:textColor="@color/grey"
+        android:textSize="14.96dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="660dp"
+        android:fontFamily="@font/applesdgothicneoeb"
+        android:text="4  국가근로 장학금"
+        android:textColor="@color/grey"
+        android:textSize="14.96dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="690dp"
+        android:fontFamily="@font/applesdgothicneoeb"
+        android:text="5  한부모가정 아동양육비 지원"
+        android:textColor="@color/grey"
+        android:textSize="14.96dp" />
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

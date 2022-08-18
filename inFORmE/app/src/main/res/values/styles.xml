@@ -15,6 +15,11 @@
 
     </style>
 
+    <style name="AppSearchView" parent="Widget.AppCompat.SearchView" >
+        <item name="android:textSize">14dp</item>
+        <item name="android:fontFamily">@font/applesdgothicneom</item>
+    </style>
+
     <style name="tabTextSizeBold" parent="TextAppearance.Design.Tab">
         <item name="android:textStyle">bold</item>
         <item name="tabTextColor">@color/primary_blue_200</item>

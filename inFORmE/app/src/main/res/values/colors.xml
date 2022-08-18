@@ -11,4 +11,8 @@
     <color name="primary_blue">#6460FF</color>
     <color name="primary_blue_200">#F1F1F9</color>
     <color name="primary_blue_100">#FCFCFE</color>
+    <color name="blue">#2679FF</color>
+    <color name="grey">#696969</color>
+    <color name="orange">#FFF2E9</color>
+    <color name="orange2">#FF8126</color>
 </resources>
